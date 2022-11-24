@@ -110,8 +110,7 @@ int main() {
 	string InputFileName;
 	cout << "Type full path to the input file: ";
 	getline(cin, InputFileName);
-    
-	//in.open(InputFileName.c_str());
+
     try {
         openFile(InputFileName);
     } catch(nullFile n) {
